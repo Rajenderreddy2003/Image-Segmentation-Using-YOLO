@@ -1,28 +1,28 @@
 ````markdown
-# 🎨 Image Segmentation App (YOLOv11x-seg)
+# Image Segmentation App (YOLOv11x-seg)
 
-This is an interactive **Object Segmentation Web App** built with **Streamlit** and powered by **YOLOv11x-seg** (Ultralytics).  
+This is an interactive Object Segmentation Web App built with Streamlit and powered by YOLOv11x-seg (Ultralytics).  
 It allows you to perform segmentation on any uploaded image or directly from your camera.  
 
 ---
 
-## 🚀 Features
-- 📂 Upload any image (`jpg`, `jpeg`, `png`, `webp`)  
-- 📸 Use your **camera** to capture and segment objects instantly  
-- 🎨 Visualize segmented objects with colored masks  
-- ⚡ Powered by **YOLOv11x-seg**, a state-of-the-art instance segmentation model  
-- 🌐 Deployed on **Hugging Face Spaces** using Streamlit  
+## Features
+- Upload any image (`jpg`, `jpeg`, `png`, `webp`)  
+- Use your camera to capture and segment objects instantly  
+- Visualize segmented objects with colored masks  
+- Powered by YOLOv11x-seg, a state-of-the-art instance segmentation model  
+- Deployed on Hugging Face Spaces using Streamlit  
 
 ---
 
-##  How It Works
-1. Load the **YOLOv11x-seg** model pipeline (stored as a `yolo_pipeline.pkl` file).  
+## How It Works
+1. Load the YOLOv11x-seg model pipeline (stored as a `yolo_pipeline.pkl` file).  
 2. Accept input from the user:
    - Upload image  
    - Or capture from the camera  
 3. Run YOLOv11x segmentation to detect and segment objects.  
 4. Overlay random colors on each detected object.  
-5. Display the **segmented output image**.  
+5. Display the segmented output image.  
 
 ---
 
@@ -60,7 +60,7 @@ Go to [http://localhost:8501](http://localhost:8501)
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 Object-Segmentation-App/
@@ -76,7 +76,7 @@ Object-Segmentation-App/
 
 ## Deployment on Hugging Face
 
-1. Create a new **Hugging Face Space** (select **Streamlit** template).
+1. Create a new Hugging Face Space (select Streamlit template).
 2. Upload all project files (`pipeline.py`, `streamlit_app.py`, `requirements.txt`, `yolo_pipeline.pkl`).
 3. Push to Hugging Face repo:
 
@@ -88,6 +88,7 @@ Object-Segmentation-App/
 4. Hugging Face will auto-build and deploy your app.
 
 ---
+
 ## Tech Stack
 
 * [YOLOv11x-seg (Ultralytics)](https://docs.ultralytics.com)
@@ -96,4 +97,4 @@ Object-Segmentation-App/
 * [NumPy](https://numpy.org/)
 * [Pillow](https://python-pillow.org/)
 
----
+```
